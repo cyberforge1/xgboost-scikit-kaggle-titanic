@@ -1,8 +1,9 @@
-pandas
+pandas>=1.5.0
+scikit-learn>=1.2.0
+xgboost==2.1.1
+matplotlib>=3.6.0
+seaborn>=0.12.0
+kaggle>=1.5.0
+joblib>=1.2.0
+scipy
 numpy
-scikit-learn
-xgboost
-matplotlib
-seaborn
-kaggle
-argparse
