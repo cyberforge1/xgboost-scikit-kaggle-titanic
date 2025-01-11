@@ -8,7 +8,7 @@ from typing import Dict
 import pandas as pd
 import xgboost as xgb
 from sklearn.metrics import accuracy_score
-from src.data.split import split_data  # Ensure src is in PYTHONPATH
+from src.data.split import split_data
 import joblib
 
 def train_model(config: Dict) -> xgb.XGBClassifier:
